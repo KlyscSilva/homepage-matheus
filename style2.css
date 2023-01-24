@@ -1,0 +1,57 @@
+div {
+    display: grid;
+    /* height: 100vh;
+    width: 100vw; */
+    /* Display grid - divide a tela em 3 colunas */
+    /* Abaixo estarei dividindo a tela em colunas */
+    /* O grid-area têm que possui o mesmo nome do grid-template-areas pra surtir efeito */
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "footer footer footer footer"
+    
+    ;
+}
+
+header {
+
+    height: 100px;
+    /* Define area */
+    grid-area: header;
+}
+
+.link1 {
+
+    cursor:pointer;
+    color:black;
+    grid-template-columns: 10% 50px 40%;
+    grid-template-rows: 50px 50px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+
+main {
+    background: blue;
+    height: 400px;
+    grid-area: main;
+}
+
+.text1 {
+    text-align:
+}
+
+aside {
+    background: yellow;
+    height: 400px;
+    grid-area: aside;
+}
+
+footer {
+    background: purple;
+    height: 100px;
+    grid-area: footer;
+}

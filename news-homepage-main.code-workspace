@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../news-homepage-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "news-homepage-main"
+	}
+}

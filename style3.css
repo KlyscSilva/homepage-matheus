@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+a {
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 50px;
+    color: darkgray;
+}
+
+a:hover {
+    color: DarkSlateGray;
+}
+
+img.logo1{
+
+    
+    position: absolute;
+        left: 25px;
+		top:50px;
+		margin-left:10px;
+		
+}
+
+main {
+    height: 80vh;
+    width: 60vw;
+    
+}
+
+img.img-principal{
+
+    position: absolute;
+    width: 60%;
+    height: 35%;
+    margin-left: 45px;
+    bottom: 350px;
+    
+}
+
+p.text1{
+
+    float: right;
+    position: relative;
+    text-align: justify;
+    bottom: 70px;
+    top: 350px;
+    left: 10px;
+    right: 200px;
+    width: 26%;
+    height: 3%;
+    right: 510px;
+    font-size: 15px;
+    color: darkgray;
+    text-shadow: 5px 5px 10px #d3d3d3;
+}
+
+h1 {
+
+    position: absolute;
+    bottom: 140px;
+    margin-left: 20px;
+    font-size: 40px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding: 20px;
+    width: 45%;
+    height: 20%;
+    
+}
+
+button {
+    
+    position: relative;
+    float: right;
+    top: 450px;
+    margin-right: 90px;
+    left: 10px;
+    height: 50px;
+    width: 155px;
+    padding: 15px 32px;
+    color: white;
+    background: orangered;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+button:hover{
+
+    background: darkgray;
+    transition: 1s;
+}
+
+
+
+aside {
+
+    float: right;
+    position: relative;
+    bottom: 565px;
+    left: 130px;
+    margin-right: 10%;
+    width: 25%;
+    background: #000000;
+
+}
+
+
+
+
+.titulo2 {
+
+    color: #eead2d;
+    height: 60px;
+    width: 20px;
+    font-size: 40px;
+    display: absolute;
+    margin-left: 10px;
+    font-weight: 700;
+
+}
+
+.titulo3{
+
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+
+    
+}
+
+p.texto2{
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 40px;
+    color: #d3d3d3;
+    margin-right: 35px;
+    margin-bottom: 9px;
+    padding: 5px;
+
+}
+
+#linha-horizontal {
+    
+    width: 375px;
+    border:1px solid #d3d3d3;
+}
+
+section {
+    display: absolute;
+}
+
+
+img.pc-retro{
+    float: left;
+    margin-left: 20px;
+    height: 150px;
+    width: 120px;
+}
+
+.texto3{
+float: left;
+}
+
+p.texto3{
+    margin-left: 20px;
+    text-align: justify;
+}
+
+h3.section1{
+
+    color: darkgray;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+h4 {
+
+    font-size: 15px;
+    display: absolute;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+}
