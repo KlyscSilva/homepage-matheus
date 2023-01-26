@@ -9,6 +9,7 @@
 
 }
 
+
 .bounce-in-top {
 
     display: inline-block;
@@ -467,7 +468,9 @@ footer p {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
+
+ 
 
   .bounce-in-top {
 
@@ -489,10 +492,21 @@ footer p {
 
   .logo-principal{
 
-    width: 150%;
-    height: 120%;
+    width: 80%;
+    height: 35vh;
     position: relative;
-    left: 30px;
+    left: 35px;
+    top: 20px;
+    padding: 10px;
+
+  }
+
+  .logo-principal img {
+
+      width: 100% ;
+      height: 25vh;
+      position: relative;
+      right: 10px;
 
   }
 
@@ -500,7 +514,7 @@ footer p {
 
     font-size: 45px;
     position: relative;
-    bottom: 25px;
+    top: 20px;
     text-align: center;
 
   }
@@ -510,7 +524,7 @@ footer p {
     position: relative;
     left: 10px;
     right: 20px;
-    bottom: 25px;
+    bottom: 10px;
     font-size: 15px;
     font-weight: 400;
     margin-left: 5px;
@@ -519,36 +533,91 @@ footer p {
     margin-bottom: 3px;
     line-height: 20px;
     letter-spacing: 1px;
+    text-align: center;
+    width: 90%;
+    height: 20vh;
 
   }
 
-  button{
+
+  .conteudo-principal button{
+
+
+    position: relative;
+    left: 50px;
+    top: 25px;
+    
+  }
+  
+    button{
     
     position: relative;
-    bottom: 25px;
-    border-radius: 5px;
-    align-items: center;    
+    top: 10px;
+    border-radius: 20px;
+    align-items: center; 
+    width: 50%;
+    padding: 10px;
 
   }
+  
 
 
   .conteudo-lateral {
-
     position: relative;
-    bottom: 130px;
+    bottom: 80px;
     left: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
-    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 40%;
+    padding: 30px;
+  }
+
+  .texto-lateral {
+
+    width: 100%;
     height: auto;
+    padding: 10px;
+    position: relative;
+    left: 4px;
+    border-radius: 1px;
 
   }
 
 
-  .texto-lateral {
-    width: 100%;
-    height: 100%;
-    padding: 30px;
+  h2{
+
+    text-align: center;
+
+  }
+
+
+  h3 {
+
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+  }
+
+.texto-lateral p {
+
+  text-indent: 8px;
+  text-align: center;
+
+}
+
+
+
+
+  section{
+
+    display: inline-block;
+    padding: 10px;
+    margin-right: 70px;
+
+
   }
 
   .card-section img {
@@ -591,12 +660,5 @@ footer p {
   }
 
 
-  section{
-
-    display: inline-block;
-    padding: 10px;
-    margin-right: 70px;
-
-  }
 
 }
