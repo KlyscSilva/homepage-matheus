@@ -471,7 +471,6 @@ footer p {
 @media screen and (max-width: 500px) {
 
  
-
   .bounce-in-top {
 
     width: 100%;
@@ -506,35 +505,50 @@ footer p {
       width: 100% ;
       height: 25vh;
       position: relative;
-      right: 10px;
+      right: 25px;
+      bottom: 40px;
 
   }
 
   .conteudo-principal h1 {
 
-    font-size: 45px;
+    font-size: 35px;
     position: relative;
-    top: 20px;
+    top: 1px;
     text-align: center;
+    right: 10px;
+    width: 100%;
+    height: 25%;
+    
+
+  }
+
+
+
+  .conteudo-principal {
+
+    width: 90%;
+    height: 70vh;
+    right: 10px;
 
   }
 
   .conteudo-principal p {
 
     position: relative;
-    left: 10px;
+    left: 0px;
     right: 20px;
-    bottom: 10px;
+    bottom: 5px;
+    top: 10px;
     font-size: 15px;
-    font-weight: 400;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 2px;
     margin-bottom: 3px;
-    line-height: 20px;
+    line-height: 15px;
     letter-spacing: 1px;
     text-align: center;
-    width: 90%;
+    width: 100%;
     height: 20vh;
 
   }
@@ -544,8 +558,8 @@ footer p {
 
 
     position: relative;
-    left: 50px;
-    top: 25px;
+    left: 60px;
+    top: 40px;
     
   }
   
@@ -608,15 +622,14 @@ footer p {
 
 }
 
-
-
-
   section{
 
-    display: inline-block;
-    padding: 10px;
-    margin-right: 70px;
-
+    display: block;
+    padding: 4px;
+    position: relative;
+    width: 90%;
+    left: 20px;
+    right: 25px;
 
   }
 
@@ -624,39 +637,56 @@ footer p {
 
     display: block;
     padding: 25px;
-    bottom: 100px;
+    bottom: 1px;
     width: 50%;
+    right: 20px;
     border-radius: 55px;
+    
     
   }
 
   h4{
     position: relative;
-    bottom: 190px;
+    bottom: 110px;
     left: 95px;
+    
   }
 
 
   h5{
     position: relative;
-    bottom: 190px;
+    bottom: 100px;
     left: 75px;
     padding: 1px;
     margin-right: 25px;
     margin-left: 15px;
+    
   }
 
   .card-section p {
 
     position: relative;
-    bottom: 190px;
+    bottom: 100px;
     left: 50px;
     margin-left: 20px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: end;
+    
 
+  }
+
+
+  footer {
+    
+    width: 90%;
+    height: 2vh;
+    border-radius: 15px;
+    position: relative;
+    left: 20px;
+    bottom: 2px;
+    background-color: #fde5e5;
   }
 
 
